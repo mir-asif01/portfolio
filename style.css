@@ -43,7 +43,7 @@ span{
     justify-content: space-evenly;
     align-items: center;
     padding: 30px;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
 }
 .top .text h1{
     font-size: 2.3rem;
@@ -56,7 +56,7 @@ span{
 /* top section  */
 /* social media  */
 .social{
-    margin: o auto;
+    margin: 0 auto;
 }
 .social ul{
     display: flex;
@@ -66,10 +66,10 @@ span{
     font-weight: bold;
     cursor: pointer;
     list-style: none;
-    margin-right: 70px;
 }
 .social ul li a{
     color: gray;
+    margin-right: 90px;
     text-decoration: none;
 }
 /* social media  */
@@ -77,9 +77,6 @@ span{
 .skils{
     display: flex;
     flex-direction: column;
-}
-.skils h2{
-    margin-left: 40px;
 }
 .skils .list ul li{
     list-style: none;
@@ -104,3 +101,36 @@ span{
     color: gray;
 }
 /* techs */
+
+
+/* // media query for mobile devices */
+
+@media only screen and (max-width:540px) {
+    .top{
+        flex-direction: column;
+    }
+    .top .text h1{
+        font-size: 20px;
+    }
+    .social ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .social ul li{
+        margin-top: 10px;
+    }
+    .skils .list{
+        margin-left: 10px;
+    }
+    .techs{
+    grid-template-columns: repeat(1,1fr);
+    }
+    .techs-div{
+        margin: 10px 0px;
+    }
+    .techs-head{
+        font-size: 17px;
+
+    }
+}
