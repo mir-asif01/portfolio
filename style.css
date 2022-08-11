@@ -1,3 +1,106 @@
 *{
     background-color: #100720;
+    font-family: 'Poppins', sans-serif;
+    color: white;
 }
+/* utility */
+.white{
+    color: white;
+}
+.img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+.m-10{
+    margin: 10px;
+}
+.ml{
+    margin-left: 40px;
+}
+.mr-icon{
+    margin-right: 5px;
+}
+.check-color{
+    color: #59CE8F;
+}
+.social-color{
+    color: gray;
+}
+
+/* utility */
+main{
+    width: 75%;
+    margin: 20px auto;
+}
+span{
+    color: #00D7FF;
+    font-weight: bolder;
+}
+/* top section  */
+.top{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px;
+    margin-bottom: 50px;
+}
+.top .text h1{
+    font-size: 2.3rem;
+}
+.top .text p{
+    font-size: 1rem;
+    text-align: justify;
+}
+
+/* top section  */
+/* social media  */
+.social{
+    margin: o auto;
+}
+.social ul{
+    display: flex;
+    align-items: center;
+}
+.social ul li{
+    font-weight: bold;
+    cursor: pointer;
+    list-style: none;
+    margin-right: 70px;
+}
+.social ul li a{
+    color: gray;
+    text-decoration: none;
+}
+/* social media  */
+/* skilss */
+.skils{
+    display: flex;
+    flex-direction: column;
+}
+.skils h2{
+    margin-left: 40px;
+}
+.skils .list ul li{
+    list-style: none;
+}
+.skils .list{
+    margin-left: 40px;
+}
+/* skilss */
+/* techs */
+.techs{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.techs-div{
+    border: 1px solid gray;
+    border-radius: 5px;
+    font-weight: 600;
+    margin: 15px;
+    text-align: center;
+}
+.techs-div p{
+    color: gray;
+}
+/* techs */
