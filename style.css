@@ -140,6 +140,16 @@ span{
 
 /* projects */
 
+/* footer  */
+.footer{
+    text-align: center;
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+/* footer  */
+
 /* // media query for mobile devices */
 
 @media only screen and (max-width:540px) {
