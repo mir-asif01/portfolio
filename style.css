@@ -154,18 +154,26 @@ span{
     color: white;
     display: flex;
     justify-content: space-between;
-    padding: 5px 10px;
-    border-radius: 5px;
-    width: 12%;
+    padding:4px 10px;
+    border-radius: 10px;
     cursor: pointer;
     text-align: center;
-    position: absolute;
+    position: fixed;
     top: 1%;
-    right: 1%;
-    background-color: #6a78ae;
+    right: 2%;
+    background-color: #5b5e6b;
 }
 .mode .night{
     display: none;
+}
+.mode .day{
+    text-align: center;
+    cursor: pointer;
+}
+.mode .night{
+    text-align: center;
+    cursor: pointer;
+
 }
 
 /* // media query for mobile devices */
