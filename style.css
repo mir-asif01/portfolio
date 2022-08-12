@@ -43,7 +43,7 @@ body{
 }
 /* utility */
 main{
-    width: 75%;
+    width: 95%;
     margin: 20px auto;
 }
 span{
@@ -152,13 +152,15 @@ span{
     .top .text p{
         font-size: 12px;
     }
-    .social ul{
+    .social-media .social ul{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+       
     }
-    .social ul li{
+    .social-media .social ul li{
         margin-top: 10px;
+        margin-right: 110px;
     }
     .skils .list{
         margin-left: 10px;
