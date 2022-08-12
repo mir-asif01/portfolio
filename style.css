@@ -27,7 +27,19 @@
 .social-color{
     color: gray;
 }
-
+.card-img{
+    height: 150px;
+    width: 220px;
+    border-radius: 10px;
+}
+.card-btn{
+    background-color: #002B5B;
+    padding: 6px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 700;
+    margin: 10px;
+}
 /* utility */
 main{
     width: 75%;
@@ -101,15 +113,28 @@ span{
     color: gray;
 }
 /* techs */
+/* projects */
+.projects{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.projects .project{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.projects .project .btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-around
+}
 
+/* projects */
 
 /* // media query for mobile devices */
 
 @media only screen and (max-width:540px) {
-    main{
-        width: 95%;
-        margin: 0 auto;
-    }
     .top{
         flex-direction: column;
     }
