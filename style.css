@@ -1,4 +1,4 @@
-*{
+body{
     background-color: #100720;
     font-family: 'Poppins', sans-serif;
     color: white;
@@ -34,11 +34,12 @@
 }
 .card-btn{
     background-color: #002B5B;
-    padding: 6px 10px;
+    padding: 7px 15px;
     text-decoration: none;
     border-radius: 5px;
     font-weight: 700;
     margin: 10px;
+    color: azure;
 }
 /* utility */
 main{
@@ -54,11 +55,12 @@ span{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    padding: 30px;
+    /* padding: 30px; */
     margin-bottom: 10px;
 }
 .top .text h1{
     font-size: 2.3rem;
+    text-align: center;
 }
 .top .text p{
     font-size: 1rem;
@@ -67,21 +69,27 @@ span{
 
 /* top section  */
 /* social media  */
-.social{
-    margin: 0 auto;
+.social-media{
+    width: 100%;
 }
-.social ul{
+.social-media .social{
+    width: 80%;
+    margin: 0px auto;
+}
+.social-media .social ul{
     display: flex;
+    justify-content: space-evenly;
     align-items: center;
+    width: 100%;
 }
-.social ul li{
+.social-media .social ul li{
     font-weight: bold;
     cursor: pointer;
     list-style: none;
 }
-.social ul li a{
+.social-media .social ul li a{
     color: gray;
-    margin-right: 90px;
+    /* margin-right: 70px; */
     text-decoration: none;
 }
 /* social media  */
@@ -141,9 +149,12 @@ span{
     .top .text h1{
         font-size: 20px;
     }
+    .top .text p{
+        font-size: 12px;
+    }
     .social ul{
-        display: flex;
         flex-direction: column;
+        justify-content: center;
         align-items: center;
     }
     .social ul li{
@@ -161,5 +172,14 @@ span{
     }
     .techs-head{
         font-size: 17px;
+    }
+    .techs-div p{
+        font-size: 12px;
+    }
+    .projects{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .project{
+        width: 100%;
     }
 }
