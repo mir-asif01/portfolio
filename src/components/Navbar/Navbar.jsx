@@ -13,7 +13,7 @@ function Navbar() {
                 <RxCross1 onClick={() => setOpenMenu(!openMenu)} className={`text-5xl ${openMenu === false ? "hidden" : "block transition-all"}`} />
 
 
-                <ul className={`bg-gray-100 px-20 py-10 flex flex-col items-center justify-center absolute right-0 top-12 rounded-md transition-all ${openMenu ? "" : "hidden"}`}>
+                <ul className={`bg-gray-100 px-20 py-10 flex flex-col items-center justify-center absolute right-0 top-12 rounded-md transition-all duration-1000 ${openMenu ? "transition-all duration-200" : "hidden"}`}>
                     <li className="text-2xl font-semibold my-4 hover:text-slate-500 cursor-pointer">HOME</li>
                     <li className="text-2xl font-semibold my-4 hover:text-slate-500 cursor-pointer">PROJECTS</li>
                     <li className="text-2xl font-semibold my-4 hover:text-slate-500 cursor-pointer">ABOUT</li>
