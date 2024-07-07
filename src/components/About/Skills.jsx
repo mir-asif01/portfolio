@@ -35,16 +35,12 @@ function Skills() {
             <div className="w-1/2">
               <h1 className="text-3xl font-semibold mb-10">Backend</h1>
               <div className="text-xl grid grid-cols-3 gap-3">
-                <p>Postman</p>
-                <p>Multer</p>
-                <p>Cloudinary</p>
-                <p>Git</p>
-                <p>Github</p>
-                <p>Vercel</p>
-                <p>Render</p>
-                <p>Netlify</p>
-                <p>Chrome dev tool</p>
-                <p>Figma</p>
+                <p>NodeJS</p>
+                <p>ExpressJS</p>
+                <p>MognoDB</p>
+                <p>Mongoose(ODM)</p>
+                <p>Firebase</p>
+                <p>JWT</p>
               </div>
             </div>
             <div className="w-1/2">
@@ -58,15 +54,16 @@ function Skills() {
             <div className="w-1/2">
               <h1 className="text-3xl font-semibold mb-10">Tools</h1>
               <div className="text-2xl grid grid-cols-4 gap-10">
-                <p>JavaScript</p>
-                <p>JavaScript</p>
-                <p>JavaScript</p>
-                <p>JavaScript</p>
-                <p>JavaScrip</p>
-                <p>JavaScript</p>
-                <p>JavaScript</p>
-                <p>JavaScript</p>
-                <p>JavaScript</p>
+                <p>Postman</p>
+                <p>Multer</p>
+                <p>Cloudinary</p>
+                <p>Git</p>
+                <p>Github</p>
+                <p>Vercel</p>
+                <p>Render</p>
+                <p>Netlify</p>
+                <p>Chrome dev tool</p>
+                <p>Figma</p>
               </div>
             </div>
           </div>
