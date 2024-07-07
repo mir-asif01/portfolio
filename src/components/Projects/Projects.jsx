@@ -2,6 +2,7 @@ import Card from "./Card";
 import p1 from "../../assets/p1.png";
 import p2 from "../../assets/p2.png";
 import p3 from "../../assets/p3.png";
+
 function Projects() {
   const projectsData = [
     {
@@ -71,7 +72,7 @@ the orders. They will see the other users also from the all users page.`,
       <section id="projects" className="p-7 md:px-32">
         <div className="flex flex-col justify-between gap-5 md:flex-row md:items-center mb-5">
           <h1 className="text-3xl underline text-slate-700 font-bold">
-            TOP PROJECTS
+            Top Projects
           </h1>
           <a
             href="https://github.com/mir-asif01"
