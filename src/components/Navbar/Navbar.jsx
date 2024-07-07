@@ -36,7 +36,7 @@ function Navbar() {
               <NavLink to={"/projects"}>Projects</NavLink>
             </li>
             <li className="text-2xl font-semibold my-4 hover:text-slate-500 cursor-pointer">
-              <NavLink to={"/about"}>About</NavLink>
+              <NavLink to={"/skills"}>Skills</NavLink>
             </li>
           </ul>
         </div>
@@ -49,7 +49,7 @@ function Navbar() {
             <NavLink to={"/projects"}>Projects</NavLink>
           </li>
           <li className="cursor-pointer">
-            <NavLink to={"/about"}>About</NavLink>
+            <NavLink to={"/skills"}>Skills</NavLink>
           </li>
         </ul>
       </nav>
