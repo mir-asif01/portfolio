@@ -6,7 +6,7 @@ function Navbar() {
   const [openMenu, setOpenMenu] = useState(false);
   return (
     <>
-      <nav className="px-10 py-5 flex justify-between items-center sm:px-32 sticky top-0 z-10 bg-gray-50">
+      <nav className="px-10 py-5 flex justify-between items-center sm:px-32 bg-gray-50">
         <div>
           <h1 className="text-slate-800 text-4xl font-bold">ASIF</h1>
         </div>
