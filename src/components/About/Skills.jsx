@@ -15,10 +15,10 @@ function Skills() {
             Skills
           </h1>
           <div className="flex flex-col md:flex-row justify-center items-center gap-10 md:w-full">
-            <div className="w-1/2">
+            <div className="w-full md:w-1/2">
               <img src={frontend} className="w-full" alt="" />
             </div>
-            <div className="w-1/2">
+            <div className="w-full md:w-1/2">
               <h1 className="text-3xl font-semibold mb-10">Frontend</h1>
               <div className="text-xl grid grid-cols-3 gap-3">
                 <p>JavaScript</p>
@@ -31,8 +31,8 @@ function Skills() {
               </div>
             </div>
           </div>
-          <div className="flex flex-col md:flex-row justify-center items-center gap-10 md:w-full">
-            <div className="w-1/2">
+          <div className="flex flex-col-reverse md:flex-row justify-center items-center gap-10 md:w-full">
+            <div className="w-full md:w-1/2">
               <h1 className="text-3xl font-semibold mb-10">Backend</h1>
               <div className="text-xl grid grid-cols-3 gap-3">
                 <p>NodeJS</p>
@@ -43,15 +43,15 @@ function Skills() {
                 <p>JWT</p>
               </div>
             </div>
-            <div className="w-1/2">
+            <div className="w-full md:w-1/2">
               <img src={backend} className="w-full" alt="" />
             </div>
           </div>
           <div className="flex flex-col md:flex-row justify-center items-center gap-10 md:w-full">
-            <div className="w-1/2">
+            <div className="w-full md:w-1/2">
               <img src={tool} className="w-full" alt="" />
             </div>
-            <div className="w-1/2">
+            <div className="w-full md:w-1/2">
               <h1 className="text-3xl font-semibold mb-10">Tools</h1>
               <div className="text-2xl grid grid-cols-4 gap-10">
                 <p>Postman</p>
