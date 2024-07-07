@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import bannerImg from "../../assets/banner.jpg";
 import { FaGithub, FaFacebook, FaLinkedin, FaTwitter } from "react-icons/fa";
 
@@ -30,6 +31,26 @@ function Home() {
           </a>
           <a target="_blank" href="https://x.com/mir_asif000111">
             <FaTwitter className="text-3xl" />
+          </a>
+        </div>
+        <div className="flex justify-center items-center gap-4">
+          <a
+            href={
+              "https://drive.google.com/file/d/1vOXRk1sK0LojkzcGEaozNEh8dDzqGOk2/view"
+            }
+            target="_blank"
+            className="bg-stone-200 mt-5 px-6 py-1 rounded-full text-lg text-slate-900 font-semibold   hover:bg-slate-900 hover:text-stone-200"
+          >
+            Resume
+          </a>
+          <a
+            href={
+              "https://drive.google.com/file/d/1Nw9SLv8IynEmXa2Qh1VGgIXwbUGd05jC/view?usp=drive_link"
+            }
+            target="_blank"
+            className="bg-stone-200 mt-5 px-6 py-1 rounded-full text-lg text-slate-900 font-semibold   hover:bg-slate-900 hover:text-stone-200"
+          >
+            CV
           </a>
         </div>
       </div>
