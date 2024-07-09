@@ -4,7 +4,7 @@ import { FaGithub, FaFacebook, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 function Home() {
   return (
-    <section id="home" className="flex justify-center items-center p-3 md:p-40">
+    <section id="home" className="flex min-h-screen justify-center items-center p-3 md:p-40">
       <div className="md:w-2/3 flex flex-col items-center justify-center text-center">
         <img
           src={bannerImg}

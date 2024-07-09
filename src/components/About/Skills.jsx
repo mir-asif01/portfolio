@@ -1,7 +1,3 @@
-import ab1 from "../../assets/ab-1.gif";
-import ab2 from "../../assets/ab-2.gif";
-import ab3 from "../../assets/ab-3.gif";
-import ab4 from "../../assets/ab-4.gif";
 import frontend from "../../assets/front.png";
 import backend from "../../assets/back.png";
 import tool from "../../assets/tool.png";
