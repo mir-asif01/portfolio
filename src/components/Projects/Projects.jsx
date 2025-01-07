@@ -1,10 +1,24 @@
-import Card from "./Card";
-import p1 from "../../assets/p1.png";
-import p2 from "../../assets/p2.png";
-import p3 from "../../assets/p3.png";
+import Card from "./Card"
+import p3 from "../../assets/p3.png"
+import p2 from "../../assets/p2.png"
+import poster_app from "../../assets/poster_app.png"
 
 function Projects() {
   const projectsData = [
+    {
+      id: 1,
+      name: "Poster, a modern blog sharing platform",
+      img: poster_app,
+      client_code: "https://github.com/mir-asif01/poster_app_fontend",
+      server_code: "https://github.com/mir-asif01/poster_app-backend",
+      live: "https://poster-app-fontend.vercel.app/",
+      features: [
+        `User authentication implemented to ensure secure blogging. Users can create an account with profile image and cover image.`,
+        `CRUD operations were implemented using NodeJS and ExpressJS and as a database MongoDB was integrated also to store data. Users can create posts, read posts, like posts and add comments to posts.`,
+        `Mongodb aggregation pipeline is used to integrate data for profile pages. Users can edit and delete posts they have added from their profile page. Users can also visit the post creator's profile from the read page`,
+      ],
+      techs: `ReactJS, TailwindCSS, Firebase, NodeJS, ExpressJS, Mongoose(ODM)`,
+    },
     {
       id: 2,
       name: "ProTask a kanban style task manager",
@@ -47,25 +61,7 @@ And the members and creator can add comments to the project.`,
       ],
       techs: `ReactJS, TailwindCSS, Firebase, NodeJS, ExpressJS, MongoDB`,
     },
-    {
-      id: 1,
-      name: "Electronics repairing shop",
-      img: p1,
-      client_code: "https://github.com/mir-asif01/e_repair_shop-client",
-      server_code: "https://github.com/mir-asif01/e_repair-shop_server",
-      live: "https://recipe-app-4be44.web.app/",
-      features: [
-        `User authentication implemented using firebase. Users can login via their google and
-facebook account. Users can see their details in the profile page. Users can update their
-personal information from profile pages’ edit option.`,
-        `Users can add order to take repair services. Users can also add reviews based on the
-service they got. The reviews will be shown on the homepage of the website.`,
-        `In the users dashboard users will see the order they added and manage them by deleting
-the orders. They will see the other users also from the all users page.`,
-      ],
-      techs: `ReactJS, TailwindCSS, Firebase, NodeJS, ExpressJS, MongoDB`,
-    },
-  ];
+  ]
 
   return (
     <>
@@ -89,6 +85,6 @@ the orders. They will see the other users also from the all users page.`,
         </div>
       </section>
     </>
-  );
+  )
 }
-export default Projects;
+export default Projects

@@ -6,6 +6,6 @@ function Footer() {
         <h1 className=" font-semibold">asifbsb2002@gmail.com</h1>
       </section>
     </>
-  );
+  )
 }
-export default Footer;
+export default Footer

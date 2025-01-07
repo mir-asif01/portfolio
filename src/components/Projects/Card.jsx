@@ -1,14 +1,16 @@
-import { FaGlobe, FaGithub } from "react-icons/fa6";
+import { FaGlobe, FaGithub } from "react-icons/fa6"
 function Card({ prj }) {
-  console.log(prj);
-  const { img, name, client_code, server_code, live, features, techs } = prj;
-  console.log();
+  console.log(prj)
+  const { id, img, name, client_code, server_code, live, features, techs } = prj
+  console.log()
   return (
     <>
       <div className="md:w-full">
         <div className="flex flex-col justify-between items-center gap-10">
           <div className="md:w-full">
-            <h1 className="text-3xl text-slate-900 font-semibold">{name}</h1>
+            <h1 className="text-3xl text-slate-900 font-semibold">
+              {id} . {name}
+            </h1>
             <p className="flex items-center gap-5 text-blue-600 underline">
               <a className="text-xl" href={live} target="_blank">
                 Live
@@ -54,6 +56,6 @@ function Card({ prj }) {
         </div>
       </div>
     </>
-  );
+  )
 }
-export default Card;
+export default Card
