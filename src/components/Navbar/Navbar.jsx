@@ -1,14 +1,16 @@
-import { useState } from "react";
-import { IoMenu } from "react-icons/io5";
-import { RxCross1 } from "react-icons/rx";
-import { Link, NavLink } from "react-router-dom";
+import { useState } from "react"
+import { IoMenu } from "react-icons/io5"
+import { RxCross1 } from "react-icons/rx"
+import { Link, NavLink } from "react-router-dom"
 function Navbar() {
-  const [openMenu, setOpenMenu] = useState(false);
+  const [openMenu, setOpenMenu] = useState(false)
   return (
     <>
       <nav className="px-10 py-5 flex justify-between sticky top-0 z-20 items-center sm:px-32 bg-gray-50">
         <div>
-          <h1 className="text-slate-800 text-4xl font-bold">Asif</h1>
+          <h1 className="text-slate-800 text-4xl font-bold">
+            <NavLink to={"/"}>Asif</NavLink>
+          </h1>
         </div>
         <div className="relative md:hidden">
           <IoMenu
@@ -54,6 +56,6 @@ function Navbar() {
         </ul>
       </nav>
     </>
-  );
+  )
 }
-export default Navbar;
+export default Navbar

@@ -17,7 +17,7 @@ function Banner() {
             Mir Kamrul Ahsan Asif
           </h1>
           <h1 className="text-slate-700 font-semibold">
-            Web Developer | JavaScript | MERN | NodeJS | ReactJS
+            Software Developer | JavaScript | NodeJS | ReactJS | NextJS | Golang
           </h1>
           <div className="flex justify-center items-center gap-5 mt-5">
             <a target="_blank" href="https://github.com/mir-asif01">
